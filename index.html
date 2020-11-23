@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samatar's Speed Typing Test</title>
+    <script src="script.js" async></script>
+    <script src="https://kit.fontawesome.com/89f546f349.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i"
+        type="text/css" media="all" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="masthead">
+        <h1>Test Your Typing Speed</h1>
+    </header>
+    <main class="main">
+        <article class="intro">
+            <p>
+                Your goal is to copy the original text in the field below. The timer starts as soon as you start typing
+                and only stops when you match the text exactly.
+            </p>
+        </article>
+        <!-- .intro -->
+        <section class="test-area">
+            <div id="origin-text">
+                <p>Samatar is a Junior Software Engineer looking for his first role within the tech industry. He has kindly made this speed typing test to help you improve on your typing speed and as an indirect advertisement of his programming skills.</p>
+            </div>
+            <!-- #origin-text -->
+
+            <div class="errors">
+                <p>Number of errors:   <span class="error">0</span></p>
+            </div>
+            <!-- .errors-->
+
+            <div class="test-wrapper">
+                <textarea id="test-area" name="textarea" rows="6"
+                    placeholder="The clock starts when you start typing."></textarea>
+            </div>
+            <!-- .test-wrapper -->
+
+            <div class="meta">
+                <section id="clock">
+                    <div class="timer">00:00:00</div>
+                </section>
+
+                <button id="reset">Restart</button>
+            </div>
+            <!-- .meta -->
+
+            <div class="text-to-time">
+                <p id="text-to-time">Words per Minute:   <span id="wpm">00</span></p>
+            </div>
+
+        </section>
+        <!-- .test-area -->
+
+        
+
+    </main>
+    
+    <footer>
+            <p>Follow me on  <a href="https://www.twitter.com/samatarcodes" target="_blank">Twitter <i class="fab fa-twitter"></i></a> and check out my <a href="https://www.github.com/samatarx" target="_blank"> GitHub <i class="fab fa-github"></i></a></p>
+        </footer>
+</body>
+
+</html>
