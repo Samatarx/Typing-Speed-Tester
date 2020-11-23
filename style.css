@@ -203,6 +203,8 @@ body {
 }
 
 .text-to-time {
+  display: flex;
+  justify-content: space-between;
   margin: 1em 0;
   padding: 1em;
   background-color: white;
@@ -218,6 +220,16 @@ body {
   .meta {
     display: grid;
     place-content: center;
+  }
+
+  .text-to-time {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-to-time p {
+    padding: 5px;
   }
 }
 
